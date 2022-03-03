@@ -1,10 +1,12 @@
 import React from 'react'
 import Todo from './components/Todo'
 
+import './Styles.css'
+
 export default function App() {
 
   return (
-    <div>
+    <div className='App'>
         <Todo/>
     </div>
   )

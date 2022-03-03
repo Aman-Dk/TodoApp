@@ -37,6 +37,7 @@ export default class Add extends Component {
                         placeholder="Enter Here"
                         onChange={this.changeHandler}
                         value={this.state.work}
+                        required
                     />
                         <Button
                             className="btn-primary text-white"
