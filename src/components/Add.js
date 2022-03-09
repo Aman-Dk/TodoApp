@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Form, FormControl, FormText, InputGroup } from 'react-bootstrap'
+import { Button, FormControl, InputGroup } from 'react-bootstrap'
 
 export default class Add extends Component {
     constructor(){
